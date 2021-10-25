@@ -9,15 +9,6 @@ const readline = require("readline").createInterface({
 });
 const { encode, decode } = require('hex-encode-decode')
 const md5 = require('md5')
-var ReverseMd5 = require('reverse-md5')
-var rev = ReverseMd5({
-    lettersUpper: false,
-    lettersLower: true,
-    numbers: true,
-    special: false,
-    whitespace: true,
-    maxLen: 12
-})
 
 console.log('             ╔════════════════════════════════════════════════════════════════════════════════════════════════╗')
 console.log('             ║                                                                                                ║')
